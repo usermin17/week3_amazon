@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(76, 122, 87);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    gap: 2vw;
+}
+
+i {
+    color: rgb(12, 39, 12);
+}
+
+.content .btn {
+    background-color: rgb(134, 167, 119);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.content .btn:hover {
+    background-color: rgb(37, 58, 37);
+    color: rgb(180, 220, 165);
+}
+
+img {
+    height: 200px;
+    object-fit: contain;
+}
